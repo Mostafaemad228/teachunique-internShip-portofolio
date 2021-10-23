@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/fontawsome/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawsome/solid.min.css">
+    <link rel="stylesheet" href="css/fontawsome/brands.min.css">
+    <!-- plugins -->
+   
+    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/plugins/owl.theme.default.min.css">
+    <!-- main Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <title> portofolio  </title>
+</head>
+<body>
+
+   <!-- ? Preloader Start -->
+   <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text ">
+
+                <svg class="spinner" viewBox="0 0 100 100" height="150px" width="150px">
+                    <clipPath id="clip">
+                        <path d="M 77.831872,66.390587 77.287049,66.429503 77.209217,66.779746 77.325965,67.168906 76.119571,68.297468 75.107757,67.324569 V 67.168906 L 74.40727,67.324569 73.823531,68.025056 73.16196,68.842291 73.317624,69.737357 73.045212,70.788088 71.060499,71.683154 70.360012,70.827004 H 69.114703 V 70.593508 L 68.764459,70.632424 68.842291,71.021583 68.063972,71.683154 H 67.791561 L 67.519149,72.578221 V 73.16196 L 67.052158,73.35654 66.157091,72.850632 65.456605,73.006296 64.600454,72.772801 V 72.461473 L 63.432976,72.733885 63.160564,73.784615 62.070918,74.874261 59.580298,75.535832 59.346803,75.691496 58.801979,75.535832 57.478838,76.002823 57.011846,76.664394 55.9222,77.092469 54.949302,77.792956 53.470496,78.104284 52.225186,78.065368 50.473969,78.1432 49.267575,77.559461 46.738039,76.975722 43.352353,76.158487 40.667153,75.496916 40.12233,75.613664 38.838104,74.874261 37.981954,75.185589 37.125803,75.496916 37.164719,76.002823 37.865206,76.664394 V 77.014638 L 38.87702,77.676208 37.125803,77.209217 36.347484,76.664394 33.545537,75.107757 33.156378,74.679681 30.821421,72.889548 30.782505,73.16196 30.120935,72.383641 27.591399,70.087601 26.774164,68.492048 24.984031,66.857578 24.906199,66.079259 23.349562,63.783219 22.88257,61.409347 22.143168,60.125121 V 59.307887 L 21.131353,57.478838 20.508698,53.470496 20.236287,53.198085 20.58653,49.812398 V 47.555274 L 21.170269,43.780428 21.481597,43.352353 21.792924,41.095229 22.726907,39.577507 22.687991,38.87702 23.816553,37.709542 24.633788,36.425316 25.178611,34.401688 26.073677,32.300227 27.163323,30.74359 28.447549,30.276598 V 29.887439 L 29.342616,29.692859 29.731775,29.3037 29.848523,27.630315 30.626842,26.929828 32.84505,24.984031 35.14109,23.427394 37.865206,22.454495 39.499675,21.909672 40.900649,21.63726 41.717883,21.053521 42.107043,21.014605 43.85826,20.275203 47.243946,20.080623 49.345407,20.391951 49.69565,20.236287 50.512885,21.170269 H 51.874943 L 52.925673,21.325933 53.470496,20.703278 54.560142,20.002791 55.649789,19.652548 55.961116,20.002791 58.840895,20.897858 60.436449,21.209185 61.214767,20.936774 63.004901,22.259915 64.172379,22.804739 66.507335,23.583057 67.947224,25.139695 70.087601,26.423921 71.644238,28.214054 75.068841,32.027815 76.158487,34.28494 77.248133,36.347484 78.610191,39.460759 79.310678,42.184875 79.271762,43.585848 79.466342,45.29815 79.38851,48.683836 79.855501,51.096624 79.660921,51.641447 78.99935,57.867997 79.777669,59.813794 79.622005,61.059104 78.493443,63.666471 78.532359,64.055631 79.933333,65.028529 H 80.594904 L 81.567802,65.378773 H 83.396851 L 81.87913,64.600454 81.645634,63.744303 82.112625,63.082732 82.385037,63.238396 82.92986,62.032002 83.863842,60.942356 83.747094,60.125121 84.758909,60.086205 85.264816,60.164037 85.809639,60.553197 86.66579,61.020188 87.016033,60.786692 87.054949,60.280785 86.354462,59.619214 85.770723,59.969458 85.459396,60.202953 85.070236,59.85271 84.836741,60.047289 83.669263,59.502466 83.902758,59.074391 84.291918,58.763064 84.214086,56.622687 83.163355,55.338461 81.567802,54.637974 81.87913,54.209899 H 82.346121 L 82.813112,51.252288 83.046608,50.979876 82.92986,49.617819 83.630347,48.8395 83.863842,47.59419 84.291918,47.321778 84.603245,47.633106 85.109152,47.321778 84.992404,46.854787 84.719993,46.54346 H 84.447581 L 84.253002,46.387796 84.097338,47.282862 83.824926,47.516358 V 46.582376 L 83.007692,46.193216 82.073709,44.364167 81.801298,44.286335 81.178643,40.667153 80.166828,37.748458 79.155014,35.53025 78.104284,33.312041 76.781142,31.40516 75.65258,29.731775 74.601849,28.25297 72.578221,26.151509 71.566406,24.945115 71.332911,25.139695 69.23145,23.116066 68.920123,23.310646 67.207822,22.337747 65.651184,20.820026 64.016715,20.197371 63.549724,19.73038 62.693573,19.691464 62.109834,19.224472 61.175852,18.796397 59.113307,18.368322 57.984745,17.590003 56.700519,17.23976 56.038948,17.395423 53.62616,16.928432 51.213372,16.500357 49.968062,17.200844 47.282862,17.278676 46.193216,17.706751 43.118857,17.901331 39.849919,19.029893 H 39.344011 L 39.149432,19.34122 36.697728,20.353035 35.180006,21.403765 34.557351,21.481597 34.129276,22.143168 31.521908,23.621973 H 31.171665 L 30.587926,24.283544 29.692859,24.945115 28.992372,24.906199 27.708147,25.412106 27.591399,25.76235 25.956929,27.163323 24.906199,27.474651 23.388478,27.046576 23.310646,28.369717 23.07715,28.992372 23.310646,29.459364 23.777637,29.653943 23.816553,31.210581 22.687991,32.922882 22.143168,33.428789 21.987504,34.246024 H 21.325933 L 20.858942,35.102174 20.703278,35.257838 20.469782,36.347484 20.041707,36.853391 20.508698,37.670626 20.236287,38.332197 19.73038,38.293281 19.613632,38.68244 19.963875,38.87702 18.718565,39.538591 17.823499,40.783901 18.251574,42.068127 18.640733,43.352353 18.562902,44.169587 18.368322,45.142486 18.523986,45.687309 17.706751,48.177929 17.862415,48.683836 17.512171,49.462155 17.590003,53.470496 17.940247,55.883284 18.523986,57.245342 18.757481,57.089678 19.263388,58.763064 19.068809,58.801979 19.302304,59.46355 18.913145,59.268971 18.757481,60.475365 19.146641,62.109834 19.963875,62.421161 20.353035,63.549724 22.298831,66.312755 23.388478,68.219636 24.555956,70.321097 26.540668,71.877734 27.085492,72.150146 27.280071,73.084128 27.708147,73.317624 28.719961,74.21269 30.510094,75.65258 32.105647,76.586562 35.024342,78.610191 35.257838,78.376695 38.526777,79.816585 39.966666,80.63382 40.939565,80.555988 41.756799,81.100811 42.457286,80.906231 44.013924,81.87913 45.414897,81.762382 46.504544,82.190457 47.983349,82.423953 49.072995,82.385037 49.189743,82.5407 51.018792,81.801298 52.419766,81.918045 54.988218,81.061895 56.155696,81.295391 56.817267,80.828399 58.685232,80.166828 63.666471,78.571275 65.767932,78.454527 67.98614,76.353067 69.192534,75.185589 69.153618,75.65258 69.464946,75.963907 70.126517,76.119571 70.515676,75.691496 70.47676,75.068841 70.321097,74.679681 69.62061,74.640765 70.243265,74.173774 71.410743,73.239792 71.488575,72.539305 71.177247,72.383641 71.138331,71.605322 73.239792,70.710256 73.862447,71.410743 74.835345,71.527491 75.691496,71.332911 76.041739,71.138331 76.50873,71.449659 76.781142,71.255079 76.236319,70.67134 76.391983,69.581694 76.469814,68.803375 76.119571,68.219636 77.403797,67.207822 H 77.831872 L 78.065368,66.974326 78.104284,66.74083 Z" />
+                    </clipPath>
+                    <path class="path" clip-path="url(#clip)" d="M 67.757283,59.202113 C 62.675098,69.009189 50.604962,72.839469 40.797887,67.757283 30.990811,62.675098 27.160531,50.604962 32.242717,40.797887 37.324902,30.990811 49.395038,27.160531 59.202113,32.242717 69.009189,37.324902 72.839469,49.395038 67.757283,59.202113" />
+                </svg>
+                
+           </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader end -->
+
+<!--//////////////////////Home Section/////////////////////////// */
+/* //////////////////////Home Section/////////////////////////// */ -->
+<section class="header " id="header">
+    <div class="overlay">
+    <nav class=" col-lg-12 navbar navbar-expand-lg navbar-dark ftco_navbar p-2 position-fixed  ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span>Dev</span>folio</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class=""> <i class="fa fa-bars"></i> </span> 
+	      </button>
+	      <div class="collapse navbar-collapse ml-auto" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active "><a href="#header" class="nav-link activelink">Home</a></li>
+	          <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="#portofolio" class="nav-link">work</a></li>
+	          <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+    <div>
+        <div class="container">
+            <div class="row  justify-content-center align-items-center">
+                <div class="col-md-10 col-sm-12 text-center welcomediv">
+                     <h1>iam mostafa emad gomaa </h1>
+                     <h3 class="type-text" >  </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</section>
+
+<!--//////////////////////Home Section/////////////////////////// */
+/* //////////////////////Home Section/////////////////////////// */ -->
+
+
+<!--//////////////////////about Section/////////////////////////// */
+/* //////////////////////about Section/////////////////////////// */ -->
+
+<section class="About mt-3" id="About">
+<div class="container about-inner shadow  mt-5">
+    <div class="row">
+        <div class="col-md-6 col-sm-12  p-5 ">
+            <div class="d-flex about-data">
+                <div class="p-2"><img src="images/111.jpg" width="250px" height="250px" alt="mostafa"></div>
+                <div class="ml-auto m p-3">
+                    <h6 class="mb-4 ml-3"><b>name</b> : mostafa emad gomaa</h6> 
+                    <h6 class="mb-4 ml-3"><b>profile</b> : front end developer</h6> 
+                    <h6 class="mb-4 ml-3"><b>email</b> : mostafa.emad43285@gmail.com </h6> 
+                    <h6 class="mb-4 ml-3"><b>phone</b> : 01064691587 </h6> 
+                </div>
+              </div>
+              <div class=" skills-div p-2">
+                <h4>skills</h4>
+
+                <div class="skills-inner">
+                    <div class="d-flex">
+                        <p class="p-2"> html</p>
+                        <p class="ml-auto p-2">85%</p>
+                    </div>
+                    <div class=" skills-bar "> <div class="skill-1">  </div> </div>
+                </div>
+                <!-- ///////////////////////////// -->
+
+                <div class="skills-inner">
+                    <div class="d-flex">
+                        <p class="p-2"> css</p>
+                        <p class="ml-auto p-2">75%</p>
+                    </div>
+                    <div class=" skills-bar "> <div class="skill-2">  </div> </div>
+                </div>
+                <!-- ///////////////////////////// -->
+
+                <div class="skills-inner">
+                    <div class="d-flex">
+                        <p class="p-2"> php</p>
+                        <p class="ml-auto p-2">50%</p>
+                    </div>
+                    <div class=" skills-bar "> <div class="skill-3">  </div> </div>
+                </div>
+                <!-- ///////////////////////////// -->
+
+                <div class="skills-inner">
+                    <div class="d-flex">
+                        <p class="p-2"> javascript</p>
+                        <p class="ml-auto p-2">90%</p>
+                    </div>
+                    <div class=" skills-bar "> <div class="skill-4">  </div> </div>
+                </div>
+                <!-- ///////////////////////////// -->
+
+              </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-sm-12 p-5 position-relative about-text-inner">
+         
+            <div class="p-3">
+                <h4 class="about-title"> About me </h4>
+
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+                     magni iste. Molestias necessitatibus quod vero,
+                     quia repellat nihil nulla eius laboriosam molestiae 
+                     quasi tenetur! Doloremque vitae obcaecati odit ut molestiae?</p>
+    
+    
+                     <p>nihil nulla eius laboriosam molestiae 
+                        quasi tenetur! Doloremque vitae obcaecati odit utLorem
+                         ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+                        magni iste. Molestias necessitatibus quod vero,
+                        quia repellat  molestiae?</p>
+    
+                        <p>magni iste. Molestias necessitatibus quod vero,
+                            quia repellat nihil nulla eius laboriosam molestiae 
+                            Lorem ipsum  adipisicing elit. Sint,quasi tenetur!
+                             Doloremque vitae obcaecati odit ut molestiae?dolor sit amet consectetur,</p>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+</section>
+
+<!--//////////////////////about Section/////////////////////////// */
+/* //////////////////////about Section/////////////////////////// */ -->
+
+
+
+
+<!--//////////////////////services Section/////////////////////////// */
+/* //////////////////////services Section/////////////////////////// */ -->
+<section class="services mt-3" id="services">
+    <div class="container">
+        <div class="title-text mt-5 text-center position-relative">
+            <h1>services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+               <div class="col-lg-12 service-div shadow p-3 bg-white m-auto text-center">
+                   <div class="icon-inner"> <i class=" services-icon fas fa-desktop"></i> </div>
+                <h4 class="mt-3">web design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur ex nemo,
+                     asperiores facilis error, mollitia deleniti beatae suscipit,
+                     porro praesentium.</p>
+               </div>
+            </div>
+        <!-- ///////////////////////////// -->
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="col-lg-12 service-div shadow p-3 bg-white m-auto text-center">
+                <div class="icon-inner"> <i class=" services-icon fas fa-code"></i> </div>
+             <h4 class="mt-3">web development</h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur ex nemo,
+                  asperiores facilis error, mollitia deleniti beatae suscipit,
+                  porro praesentium.</p>
+            </div>
+         </div>
+     <!-- ///////////////////////////// -->
+
+
+
+     <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-12 service-div shadow p-3 bg-white m-auto text-center">
+            <div class="icon-inner"> <i class="services-icon  fas fa-camera"></i> </div>
+         <h4 class="mt-3">photography</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur ex nemo,
+              asperiores facilis error, mollitia deleniti beatae suscipit,
+              porro praesentium.</p>
+        </div>
+     </div>
+ <!-- ///////////////////////////// -->
+
+
+ <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+    <div class="col-lg-12 service-div shadow p-3 bg-white m-auto text-center">
+        <div class="icon-inner"> <i class=" services-icon fas fa-mobile-alt"></i> </div>
+        <h4 class="mt-3">responsive design</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur ex nemo,
+          asperiores facilis error, mollitia deleniti beatae suscipit,
+          porro praesentium.</p>
+    </div>
+ </div>
+<!-- ///////////////////////////// -->
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+    <div class="col-lg-12 service-div shadow p-3 bg-white m-auto text-center">
+        <div class="icon-inner"> <i class=" services-icon fas fa-paint-brush"></i> </div>
+     <h4 class="mt-3">graphic design</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur ex nemo,
+          asperiores facilis error, mollitia deleniti beatae suscipit,
+          porro praesentium.</p>
+    </div>
+ </div>
+<!-- ///////////////////////////// -->
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+    <div class="col-lg-12 service-div shadow p-3 bg-white m-auto text-center">
+        <div class="icon-inner"> <i class="  services-icon fas fa-chart-bar"></i> </div>
+     <h4 class="mt-3">marketing services</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur ex nemo,
+          asperiores facilis error, mollitia deleniti beatae suscipit,
+          porro praesentium.</p>
+    </div>
+ </div>
+<!-- ///////////////////////////// -->
+            
+
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--//////////////////////services Section/////////////////////////// */
+/* //////////////////////services Section/////////////////////////// */ -->
+
+
+
+
+<!--//////////////////////count Section/////////////////////////// */
+/* //////////////////////count Section/////////////////////////// */ -->
+<section class="count mt-3" id="count ">
+    <div  class="   text-center p-5 ">
+        <div class="container p-5">
+         
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5 d-flex justify-content-center">
+                    <div class=" m-auto text-center  mt-5">
+                      <div class="count-text">
+                        <div class="count-icon-inner"> <i class=" text-white  count-icon fas fa-check"></i> </div>
+                        <h1 class="mt-3 countfect" data-num="450"></h1>
+                        <p>works completed</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- ///////////////////////// -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5 d-flex justify-content-center">
+                  <div class=" m-auto text-center mt-5">
+                    <div class="count-text">
+                        <div class="count-icon-inner"> <i class=" text-white count-icon fas fa-table"></i> </div>
+                        <h1 class="mt-3 countfect" data-num="15"></h1>
+                        <p>years of experience</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- /////////////////////////// -->
+  
+                <!-- ///////////////////////// -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5 d-flex justify-content-center">
+                  <div class=" m-auto text-center mt-5">
+                    <div class="count-text">
+                        <div class="count-icon-inner"> <i class=" text-white count-icon fas fa-users"></i> </div>
+                        <h1 class="mt-3 countfect" data-num="550"></h1> 
+                        <p>total client</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- /////////////////////////// -->
+         <!-- ///////////////////////// -->
+         <div class="col-lg-3 col-md-6 col-sm-12 mt-5 d-flex justify-content-center">
+          <div class=" m-auto text-center mt-5">
+            <div class="count-text">
+                <div class="count-icon-inner"> <i class=" text-white count-icon fas fa-medal"></i> </div>
+                <h1 class="mt-3 countfect" data-num="36"></h1>
+                <p>award won</p>
+              </div>
+            </div>
+        </div>
+        <!-- /////////////////////////// -->
+            </div>
+        </div>
+    </div>
+    
+  </section>
+
+
+
+<!--//////////////////////count Section/////////////////////////// */
+/* //////////////////////count Section/////////////////////////// */ -->
+
+
+
+<!--//////////////////////portofolio Section/////////////////////////// */
+/* //////////////////////portofolio Section/////////////////////////// */ -->
+
+<section class="portofolio mt-3" id="portofolio">
+    <div class="container">
+        <div class="title-text mt-5 text-center position-relative">
+            <h1>portofolio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+                <div class="card">
+                    <div class="img-card">
+                        <img class="portofolio-img img-fluid d-block" src="images/portofolio/portofolio-1.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                      <h6 class="card-title">Lorem, ipsum dolor</h6>
+                      <div class="d-flex portofolio-text">
+                        <p class=""> <span>web design</span> / 18 sep.2018 </p>
+                        <div class="ml-auto p-2 portofolio-add-btn"> <i class="fas fa-plus"></i> </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        <!-- ///////////////////////////// -->
+                  
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+            <div class="card">
+                <div class="img-card">
+                    <img class="portofolio-img img-fluid d-block" src="images/portofolio/portofolio-2.jpg" alt="Card image cap">
+                </div>                <div class="card-body">
+                  <h6 class="card-title">Lorem, ipsum dolor</h6>
+                  <div class="d-flex portofolio-text">
+                    <p class=""> <span>web design</span> / 18 sep.2018 </p>
+                    <div class="ml-auto p-2 portofolio-add-btn"> <i class="fas fa-plus"></i> </div>
+                </div>
+                </div>
+              </div>
+        </div>
+    <!-- ///////////////////////////// -->
+              
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+        <div class="card">
+            <div class="img-card">
+                <img class="portofolio-img img-fluid d-block" src="images/portofolio/portofolio-3.jpg" alt="Card image cap">
+            </div>            <div class="card-body">
+              <h6 class="card-title">Lorem, ipsum dolor</h6>
+              <div class="d-flex portofolio-text">
+                <p class=""> <span>web design</span> / 18 sep.2018 </p>
+                <div class="ml-auto p-2 portofolio-add-btn"> <i class="fas fa-plus"></i> </div>
+            </div>
+            </div>
+          </div>
+    </div>
+<!-- ///////////////////////////// -->
+          
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+    <div class="card">
+        <div class="img-card">
+            <img class="portofolio-img img-fluid d-block" src="images/portofolio/portofolio-4.jpg" alt="Card image cap">
+        </div>        <div class="card-body">
+          <h6 class="card-title">Lorem, ipsum dolor</h6>
+          <div class="d-flex portofolio-text">
+            <p class=""> <span>web design</span> / 18 sep.2018 </p>
+            <div class="ml-auto p-2 portofolio-add-btn"> <i class="fas fa-plus"></i> </div>
+        </div>
+        </div>
+      </div>
+</div>
+<!-- ///////////////////////////// -->
+          
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+    <div class="card">
+        <div class="img-card">
+            <img class="portofolio-img img-fluid d-block" src="images/portofolio/portofolio-5.jpg" alt="Card image cap">
+        </div>        <div class="card-body">
+          <h6 class="card-title">Lorem, ipsum dolor</h6>
+         
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </div>
+      </div>
+</div>
+<!-- ///////////////////////////// -->
+          
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+    <div class="card">
+        <div class="img-card">
+            <img class="portofolio-img img-fluid d-block" src="images/portofolio/portofolio-6.jpg" alt="Card image cap">
+        </div>        <div class="card-body">
+          <h6 class="card-title">Lorem, ipsum dolor</h6>
+          <div class="d-flex portofolio-text">
+            <p class=""> <span>web design</span> / 18 sep.2018 </p>
+            <div class="ml-auto p-2 portofolio-add-btn"> <i class="fas fa-plus"></i> </div>
+        </div>
+        </div>
+      </div>
+</div>
+<!-- ///////////////////////////// -->
+    
+        
+
+            
+
+            
+        </div>
+    </div>
+
+</section>
+
+<!--//////////////////////portofolio Section/////////////////////////// */
+/* //////////////////////portofolio Section/////////////////////////// */ -->
+
+
+<!--//////////////////////testemonials Section/////////////////////////// */
+/* //////////////////////testemonials Section/////////////////////////// */ -->
+<section class="testemonials mt-3" id="testemonials">
+  
+
+    <!-- ////////////////////////////////////// -->
+    <div class="container mt-5">
+        <div class="row  mt-5 " >
+            <div class=" col-lg-9 m-auto owl-carousel owl-theme" id="carsour-teste">
+            <!-- ////////////////////////////////////////////////////////////// -->
+            <div  class="text-center col-lg-12 m-auto  mt-5 ">
+               
+                    <div class="teste-persons mt-2 ">
+                        <div class="teste-img text-center " style="background-image: url(images/persons/person_1.jpg);"></div><br><br>
+                        <strong class="mt-3 text-light">mostafa emad</strong><br>
+                        <p class="mt-3 ">Far far away, behind the word mountains, 
+                            far from the countries Vokalia and Consonantia,
+                             there live the blind texts.</p>  
+                             <div class="circle bg-white"> <i class="fa fas fa-quote-right text-primary"></i> </div>
+                    </div>
+            </div>
+            <!-- ////////////////////////////////////////////////////////////// -->
+            <!-- ////////////////////////////////////////////////////////////// -->
+            <div  class="text-center col-lg-12 m-auto  ">
+               
+                    <div class="teste-persons mt-2 ">
+                        <div class="teste-img text-center " style="background-image: url(images/persons/person_2.jpg);"></div><br><br>
+                        <strong class="mt-3 text-light">mohamed emad</strong><br>
+                        <p class="mt-3 ">Far far away, behind the word mountains, 
+                            far from the countries Vokalia and Consonantia,
+                             there live the blind texts.</p>  
+                             <div class="circle bg-white"> <i class="fa fas fa-quote-right text-primary"></i> </div>
+                    </div>
+            </div>
+            <!-- ////////////////////////////////////////////////////////////// -->
+            <!-- ////////////////////////////////////////////////////////////// -->
+        
+            
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+
+
+
+<!--//////////////////////testemonials Section/////////////////////////// */
+/* //////////////////////testemonials Section/////////////////////////// */ -->
+
+<!--//////////////////////blog Section/////////////////////////// */
+/* //////////////////////blog Section/////////////////////////// */ -->
+
+<section class="blog mt-3" id="blog">
+    <div class="container">
+        <div class="title-text mt-5 text-center position-relative">
+            <h1>blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3 ">
+                <div class="card">
+                    <img class="card-img-top" src="images/blog/blog-1.jpg" alt="Card image ">
+                    <div class="card-body position-relative">
+                        <div class="description-square position-absolute"> web design </div>
+                      <h6 class="card-title mt-3">see more ideas about travel</h6>
+                      <p > Cupiditate tenetur eius temporibus odio delectus doloribus ipsum dignissimos dolore explicabo laboriosam? 
+                        Lorem, ipsum dolor sit </p>
+                        <hr>
+                        <div class="d-flex bd-highlight mb-3 blog-down">
+                            <div class="p-2 bd-highlight  blog-person mt-1"></div>
+                            <span class="p-2 bd-highlight">mostafa emad gomaa</span>
+                            <div class="ml-auto p-2 bd-highlight"> <i class="fa fa-clock"></i> 10 min</div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        <!-- ///////////////////////////// -->
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3 ">
+            <div class="card">
+                <img class="card-img-top" src="images/blog/blog-2.jpg" alt="Card image cap">
+                <div class="card-body position-relative">
+                    <div class="description-square position-absolute"> web design </div>
+                  <h6 class="card-title mt-3">see more ideas about travel</h6>
+                  <p > Cupiditate tenetur eius temporibus odio delectus doloribus ipsum dignissimos dolore explicabo laboriosam? 
+                    Lorem, ipsum dolor sit </p>
+                    <hr>
+                    <div class="d-flex bd-highlight mb-3 blog-down">
+                        <div class="p-2 bd-highlight  blog-person mt-1"></div>
+                        <span class="p-2 bd-highlight">mostafa emad gomaa</span>
+                        <div class="ml-auto p-2 bd-highlight"> <i class="fa fa-clock"></i> 10 min</div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    <!-- ///////////////////////////// -->
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3 ">
+        <div class="card">
+            <img class="card-img-top" src="images/blog/blog-3.jpg" alt="Card image cap">
+            <div class="card-body position-relative">
+                <div class="description-square position-absolute"> web design </div>
+              <h6 class="card-title mt-3">see more ideas about travel</h6>
+              <p > Cupiditate tenetur eius temporibus odio delectus doloribus ipsum dignissimos dolore explicabo laboriosam? 
+                Lorem, ipsum dolor sit </p>
+                <hr>
+                <div class="d-flex bd-highlight mb-3 blog-down">
+                    <div class="p-2 bd-highlight  blog-person mt-1"></div>
+                    <span class="p-2 bd-highlight">mostafa emad gomaa</span>
+                    <div class="ml-auto p-2 bd-highlight"> <i class="fa fa-clock"></i> 10 min</div>
+                </div>
+            </div>
+          </div>
+    </div>
+<!-- ///////////////////////////// -->
+                  
+    
+        
+
+            
+
+            
+        </div>
+    </div>
+
+</section>
+
+<!--//////////////////////blog Section/////////////////////////// */
+/* //////////////////////blog Section/////////////////////////// */ -->
+
+
+
+<!--//////////////////////contact Section/////////////////////////// */
+/* //////////////////////contact Section/////////////////////////// */ -->
+
+<section class="contact mt-3" id="contact"> 
+    <div class="container bg-white shadow mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 p-5 ">
+                <h4 class="about-title"> send message us </h4>
+                <form>
+                    <div class="row mt-5">
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mt-3">
+                              <input type="text" class="form-control col-lg-12" id="inputCity" placeholder=" your Name">
+                            </div>
+
+                            <div class="form-group col-md-12 mt-3">
+                                <input type="text" class="form-control col-lg-12" id="inputCity" placeholder=" your Email">
+                            </div>
+
+                            <div class="form-group col-md-12 mt-3">
+                                <input type="text" class="form-control col-lg-12" id="inputCity" placeholder=" Subject ">
+                            </div>
+
+                            <div class="form-group col-md-12 mt-3">
+                                <textarea class=" col-lg-12" name="" id="" cols="30" rows="5" placeholder=" Message"></textarea>  
+                            </div>
+
+                            <div class="form-group col-md-4 mt-5">
+                                <button type="submit" class="btn btn-primary rounded rounded-pill">send message</button>
+                            </div>
+
+
+                            <div class="form-group row mt-5">
+                                <div class="col-lg-12">
+                                </div>
+                              </div>
+                    </div>
+                    </div>
+                  </form>
+
+            </div>
+    
+    
+    
+            <div class="col-md-6 col-sm-12 p-5 position-relative about-text-inner">
+             
+                <div class="p-3">
+                    <h4 class="about-title"> get in touch </h4>
+    
+                    <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+                         magni iste. Molestias necessitatibus quod vero,
+                         quia repellat nihil nulla eius laboriosam molestiae 
+                         quasi tenetur! Doloremque vitae obcaecati odit ut molestiae?</p>
+        
+        
+                         <p> <i class="fa fa-search-location text-primary mr-3"></i> sendbes. El qanater elkhayrya. El qalubya. egypt </p>
+                         <p> <i class="fa fa-phone-alt text-primary mr-3"></i> 01064691587 </p>
+                         <p> <i class="fa fa-mail-bulk text-primary mr-3"></i> <a href="mailto:mostafa.emad43285@gmaol.com">mostafa.emad43285@gmaol.com</a> </p>
+
+                         <div class="social-links d-flex">
+                            <div class="social-circle bg-white mr-2"> <i class=" fab fa-facebook-square social-icon"></i> </div>
+                            <div class="social-circle bg-white mr-2"> <i style="left: 9px;" class=" fas fa-camera social-icon"></i> </div>
+                            <div class="social-circle bg-white mr-2"> <i class="fab fa-twitter social-icon"></i> </div>
+                            <div class="social-circle bg-white mr-2"> <i class="fab fa-pinterest-p social-icon"></i> </div>
+
+                         </div>
+
+                         
+                </div>
+    
+            </div>
+    
+    
+        </div>
+
+
+    </div>
+
+    <div class=" mt-5 text-center">
+        <p class="text-light copyright"> &copy; copyright <b>devfolio</b>.All rights reserved <br> designed by 
+            <b><a  class="text-white" href="https://www.facebook.com/mostafa.emadgomaa"> mostafa emad gomaa</a></b>
+        </p>
+    </p> 
+    </div>
+
+</section>
+
+<!--//////////////////////contact Section/////////////////////////// */
+/* //////////////////////contact Section/////////////////////////// */ -->
+
+
+<!-- live style switcher -->
+<div class="style-switcher">
+    <div class="toggle-style-switcher bg-dark">
+      <i class=" ico7 fa fa-cog fa-spin"></i>
+    </div>
+    
+      
+      <div class="col-right">
+        <p>click here to lesiten to music</p>
+        <img src="images/music/play.png"  id="icon" alt="music">
+      </div>
+  
+      <audio id="my-song">
+        <source src="images/music/music.mp4" type="audio/mp3">
+      </audio>
+  
+  
+    </div>
+    
+    <!-- live style switcher End -->
+
+
+
+
+<!-- bootstrap -->
+<script src="js/bootstrap/jquery-3.5.1.js"></script>
+<script src="js/bootstrap/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- fontawsome -->
+<script src="js/fontawsome/fontawesome.min.js"></script>
+<script src="js/fontawsome/solid.min.js"></script>
+<script src="js/fontawsome/brands.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/plugins/countfect.min.js"></script>
+
+
+<!-- main scripts --> 
+<script src="js/custom.js"></script>
+<script>
+        /* 1. Proloder */
+        $(window).on('load', function () {
+          $('#preloader-active').delay(450).fadeOut('slow');
+          $('body').delay(850).css({
+            'overflow': 'visible'
+          });
+        });
+        ///////////////////////////////////////
+    
+
+
+</script>
+</body>
+</html>
